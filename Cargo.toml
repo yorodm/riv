@@ -1,0 +1,11 @@
+[package]
+name = "riv"
+version = "0.1.0"
+edition = "2021"
+
+[features]
+
+[dependencies]
+gumdrop = "0.8.1"
+reqwest = {version="0.11.11", default-features= false, features=["rustls-tls", "json"]}
+ring = "0.16.20"
